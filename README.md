@@ -27,7 +27,7 @@ Then you can use it in the package.json as a node run script:
 ``` json
 {
   ...
-  scripts: {
+  "scripts": {
     "postinstall": "composer-runner -- install"
   }
 }
