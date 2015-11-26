@@ -10,7 +10,7 @@ When using a NPM run scripts to install php dependencies via composer you need t
 
 ## Dependencies
 
-This package will not reduce the dependency of php to be installed on your environment. Be sure to have php installend and available in your PATH environment.
+This package will not reduce the dependency of php to be installed on your environment. Be sure to have php installed and available in your PATH environment.
 
 ## Usage
 
@@ -48,7 +48,7 @@ composer-runner -- -v
 
 By default every version of node-composer-runner is bundled with a predefined specific composer version, to be sure the repository is independent for breaking changes to the composer library.
 
-If the specified version is to old, you can override it in your package json:
+If the specified version is out of date, you can override it in your package json:
 ``` json
 {
   ...
@@ -58,4 +58,4 @@ If the specified version is to old, you can override it in your package json:
 } 
 ```
 
-You can defined every version that is defined on the composer server like ``https://getcomposer.org/download/<version>/composer.phar``.
+You can defined any version that is accessible on the composer server like ``https://getcomposer.org/download/<version>/composer.phar``.
