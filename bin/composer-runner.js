@@ -9,5 +9,8 @@ const execute = composerRunner.execute;
 
 manager.install(version, () => {
   console.log(`node-composer-runner: Using composer version ${version}`);
-  execute(version, argv._);
+  execute(version, argv._, () => {
+    // always exit when composer finishes is work
+    process.exit();
+  });
 });
