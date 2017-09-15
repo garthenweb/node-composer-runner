@@ -1,6 +1,6 @@
 {
   "name": "node-composer-runner",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Node.js wrapper for composer package manager (php)",
   "main": "index.js",
   "scripts": {
