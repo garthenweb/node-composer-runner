@@ -4,7 +4,7 @@
   "description": "Node.js wrapper for composer package manager (php)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./bin/composer-runner.js -- --version"
   },
   "repository": {
     "type": "git",
