@@ -16,7 +16,7 @@
   ],
   "engines": {
     "node": ">=4.2.0",
-    "composer": "1.8.6"
+    "composer": "2.1.5"
   },
   "author": "Jannick Garthen",
   "license": "MIT",
